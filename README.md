@@ -7,7 +7,7 @@
 
 # Components:
 * Bootstrap Table Classes
-* Table Sorter
+* Table Sorter (using JQuery Tablesorter 2.0)
 * Glyphicons
 * Form POSTing
 * Search Filter Plugin
