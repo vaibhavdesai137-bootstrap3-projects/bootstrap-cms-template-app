@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Login - Bootstrap CMS Template App</title>
-        <link href="css/bootstrap.css" rel="stylesheet">
-        
-        <link href="css/style.css" rel="stylesheet">
-        <link href="css/login.css" rel="stylesheet">
-        <link href="css/footer.css" rel="stylesheet">
 
-        <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
-        
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login - Bootstrap CMS Template App</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
 
-    <body id="loginBody">
-        
-        <nav class="navbar navbar-default">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="login.html">CMS Admin Template</a>
-                </div>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                   <ul class="nav navbar-nav">
-                        <li class="active"><a href="login.html">Login</a></li>
-                        <li><a href="dashboard.html">Dashboard</a></li>
-                        <li><a href="pages.html">Pages</a></li>
-                        <li><a href="categories.html">Categories</a></li>
-                        <li><a href="users.html">Users</a></li>
-                    </ul>
+    <link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Profile</a></li>
-                                </ul>
-                            </a>
-                        </li>
-                        <li><a href="login.html">Logout</a></li>
-                    </ul>
-                </div>
+</head>
+
+<body id="loginBody">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="login.html">CMS Admin Template</a>
             </div>
-        </nav>
 
-        <form class="form-signin" action="dashboard.html">
-            <h2 class="form-signin-heading text-center">CMS Admin Login</h2>
-            <label for="inputEmail" class="sr-only">Email address</label>
-            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-            <label for="inputPassword" class="sr-only">Password</label>
-            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-            <div class="checkbox">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="login.html">Login</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="pages.html">Pages</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="users.html">Users</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Profile</a></li>
+                        </ul>
+                        </a>
+                    </li>
+                    <li><a href="login.html">Logout</a></li>
+                </ul>
             </div>
-            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        </form>
-        
-        <br/><br/>
+        </div>
+    </nav>
 
-        <footer>
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <ul>
-                        <li><a class="btn btn-success links" target="_blank" href="https://github.com/vaibhavdesai137/bootstrap-cms-template-app"><i class="fa fa-code fa-lg"></i><span class="social-links"> Source Code</span></a></li>
-                        <li><a class="btn btn-success links" target="_blank" href="https://github.com/vaibhavdesai137"><i class="fa fa-github fa-lg"></i><span class="social-links"> GitHub</span></a></li>
-                        <li><a class="btn btn-success links" target="_blank" href="https://www.linkedin.com/in/vaibhav-desai-a864aa15"><i class="fa fa-linkedin fa-lg"></i><span class="social-links"> LinkedIn</span></a></li>
-                        <li><a class="btn btn-success links" target="_blank" href="https://www.facebook.com/vaibhav.desai.165033"><i class="fa fa-facebook fa-lg"></i><span class="social-links"> Facebook</span></a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                    <p>Vaibhav Desai</p>
-                </div>
-            </div>
-        </footer>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
+    <form class="form-signin" action="dashboard.html">
+        <h2 class="form-signin-heading text-center">CMS Admin Login</h2>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
 
-    </body>
+    <br/>
+    <br/>
+
+    <footer>
+        <div class="col-md-12">
+            <a title="Source code for this website" target="_blank" href="https://github.com/vaibhavdesai137/bootstrap-cms-template-app" class="btn btn-success">
+                <i class="fa fa-code fa-lg"></i>
+            </a>
+            <a title="My GitHub" target="_blank" href="https://github.com/vaibhavdesai137" class="btn btn-success">
+                <i class="fa fa-github fa-lg"></i>
+            </a>
+            <a title="My LinkedIn" target="_blank" href="https://www.linkedin.com/in/vaibhav-desai-a864aa15" class="btn btn-success">
+                <i class="fa fa-linkedin fa-lg"></i>
+            </a>
+            <a title="My Facebook" target="_blank" href="https://www.facebook.com/vaibhav.desai.165033" class="btn btn-success">
+                <i class="fa fa-facebook fa-lg"></i>
+            </a>
+        </div>
+        <div class="col-md-12">
+            <p>Vaibhav Desai</p>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
 
 </html>
